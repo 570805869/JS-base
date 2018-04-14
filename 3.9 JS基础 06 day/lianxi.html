@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    //预解析
+    /*
+     预解析：
+     全局作用域：
+     function f1(){};
+
+     函数作用域：
+     a = 9;
+     代码执行：
+
+     全局作用域：
+     a = undefined;
+
+     */
+    //
+    //    f1 ();
+    //    console.log(c);   // 9
+    //    console.log(b);   // 9
+    //    console.log(a);   // not defined
+    //
+    ////    var b = 9;
+    ////    var c = 9;
+    //
+    //    function f1(){
+    //
+    //        var a = b = c = 9;
+    ////        var a = 9;
+    ////            b = 9;
+    ////            c = 9;
+    //
+    //        console.log(a);   // 9
+    //        console.log(b);   // 9
+    //        console.log(c);   // 9
+    //    }
+
+    //     var num = 20;
+    //     function fn () {
+    //         var sum = 50;
+    //     }
+    //     fn ();
+    //
+    //     console.log(num);
+    //     console.log(sum);
+
+
+    //    var obj = {
+    //        name: '张三',
+    //        age: 20,
+    //        sex: '女',
+    //    }
+    //
+    //    var person ={
+    //        name: '张三',
+    //        age: 20,
+    //        sex: '女',
+    //        eat:function(){
+    //            console.log('吃饭中。。')
+    //        }
+    //    }
+    //    console.log(person);
+    //    console.log(person.name);
+    //
+    //    person.eat();
+    //    console.log(person.eat())
+
+
+    //    var person = new Objet();
+    ////    person.属性名 = 属性值；
+    //    person.name = '张三';
+    //    person.age = 20;
+
+    //    function creatPerson(name,age,sex){
+    //        var person = new Object();
+    //
+    //        person.name = name;
+    //        person.age = age;
+    //        person.sex = sex;
+    //
+    //        return person;
+    //    }
+    //
+    //    var p1 = creatPerson('张三',20 ,'男');
+    //    var p2 = creatPerson('张四',2 ,'女');
+    //    var p3 = creatPerson('张五',23 ,'男')
+    //
+    //    console.log(p1);
+    //    console.log(p2);
+    //    console.log(p3);
+    //    creatPerson()
+
+    //    第一种：
+
+    //    var obj ={
+    //        name:'刘美君',
+    //        age: 18,
+    //        sex: '女',
+    //        hobby: '游泳'
+    //    };
+    //    console.log(obj);
+
+    //    第二种：
+
+    //    var person = new Object();
+    //    person.name = '刘美君';
+    //    person.age = 18;
+    //    person.sex = '女';
+    //    person.hobby = '游泳'
+    //
+    //    console.log(person);
+
+    //    第三种 (以工厂方式)
+
+//        function createPerson(name,age,sex){
+//            var person = new Object();
+//
+//            person.name = name;
+//            person.age = age;
+//            person.sex = sex;
+//
+//            return person;
+//        }
+//
+//        var p1 = createPerson('张三',14,'男');
+//        var p2 = createPerson('李四',13,'女');
+//
+//    console.log(p1);
+
+    //    第四种：
+
+    //    function CreatPerson(name,age,sex,hobby){
+    //        this.name = name;
+    //        this.age = age;
+    //        this.sex = sex;
+    //        this.hobby = hobby;
+    //    }
+    //
+    //    var p1 = new CreatPerson('刘美君',18,'女','跑步');
+    //
+    //    console.log(p1);
+
+
+
+    //    获取对象的属性值：
+
+    //    var person ={
+    //        name :'张三',
+    //        age : 20,
+    //    }
+    //
+    //    for (attr in person){
+    ////        console.log(attr);
+    //
+    //        console.log(person[attr]);
+    //    }
+
+
+
+
+//    3.9作业
+    //有一个黄色的小狗，叫大黄，今年已经三岁了，250斤的重量走路很慢，喜欢吃大骨头
+
+    //第一种
+
+//        var dog = {
+//            color: 'yellow',
+//            name: '大黄',
+//            age: 3,
+//            weigh: 250,
+//            eat: function () {
+//                console.log('喜欢吃大骨头');
+//            }
+//        }
+//            console.log(dog)
+
+//    第二种
+
+//    var dog = new Object()
+//    dog.color = 'yellow';
+//    dog.age = 3;
+//    dog.weight = 250;
+//    dog.eat = function(){
+//        console.log('喜欢大骨头')
+//    }
+//    console.log(dog)
+
+//    第三种
+
+//    function createPet(name,color,age,weight){
+//        var dog = new Object();
+//
+//        dog.name = name;
+//        dog.color = color;
+//        dog.age = age;
+//        dog.fontWeight = weight;
+//        dog.eat = function(){
+//            console.log('喜欢吃大骨头');
+//        }
+//
+//        return dog;
+//    }
+//
+//    var huang = createPet('大黄','yellow',3,250)
+//    console.log(huang);
+
+//    第四种
+
+//    function petIntro(name,color,age,weight){
+//        this.name = name;
+//        this.color = color;
+//        this.age = age;
+//        this.weight = weight;
+//    }
+//    var dog = new petIntro('大黄','color',3,250);
+//    console.log(dog);
+
+    // 创建一个手机对象，手机有型号，有颜色，可以打电话发短信
+
+    //第一种
+
+//    var Phone = {
+//        type: 'x531',
+//        color: 'yellow',
+//        call: function(){
+//            console.log('我可以打电话哦');
+//        },
+//        text: function(){
+//          console.log('我可以发短信哦');
+//        }
+//    }
+//    Phone.call();
+//    console.log(Phone);
+
+    //第二种
+
+//    var Phone = new Object()
+//    Phone.type = 'x531';
+//    Phone.color = 'yellow';
+//    Phone.call = function(){
+//        console.log('我可以打电话哦');
+//    }
+//    Phone.text = function(){
+//        console.log('我可以发短信哦');
+//    }
+//    console.log(Phone.call())
+//    console.log(Phone);
+
+    //第三种
+
+//    function phoneIntro(type,color){
+//        var phone = new Object();
+//
+//        phone.type = type;
+//        phone.color = color;
+//        phone.call = function(){
+//            console.log('我可以打电话哦')
+//        }
+//        phone.text = function (){
+//            console.log('我可以发短信哦')
+//        }
+//
+//        return phone
+//    }
+//
+//    var p1 = phoneIntro('x531','color');
+//    console.log(p1);
+
+    //第四种
+
+//    function phoneIntro(type,color){
+//        this.type = type;
+//        this.color = color;
+//    }
+//
+//    var phone = new phoneIntro('x531','yellow');
+//    console.log(phone);
+
+    //创建一个图片的对象，图片有宽，有高，有大小，图片可以展示内容
+
+    //第一种
+
+//    var pic = {
+//        width: 200,
+//        height: 200,
+//        size: 300,
+//        display: function(){
+//            return '我可以展示内容哦'
+//        }
+//    }
+//    console.log(pic);
+//    console.log(pic.display())
+
+
+    //第二种
+
+//    var pic = new Object();
+//    pic.width = 100;
+//    pic.height = 100;
+//    pic.size = 200;
+//    pic.display = function(){
+//        return '我可以展示内容'
+//    }
+//
+//    console.log(pic);
+//    console.log(pic.display());
+
+    //第三种
+
+//    function picIn(width,height,size){
+//        var pic = new Object();
+//
+//        pic.width = width;
+//        pic.height = height;
+//        pic.size = size;
+//        pic.display = function () {
+//            return '我可以展示内容'
+//        }
+//
+//        return pic;
+//    }
+//    var p1 = picIn(200,200,300);
+//    console.log(p1);
+//    console.log(p1.display())
+
+    //第四种
+
+//    function picIntro(width,height,size){
+//        this.width = width;
+//        this.height = height;
+//        this.size = size;
+//
+//        this.display = function(){
+//            return '我可以展示内容'
+//        }
+//    }
+//    var pic = new picIntro(200,222,333);
+//    console.log(pic)
+//    console.log(pic.display())
+
+//    预解析(1)
+
+//    预解析：  (在预解析的过程中变量只声明不赋值,并且)
+//
+//             全局作用域
+//                     a = undefined;
+//                     fn = function(){} ;
+//
+//    代码执行：
+//            全局作用域
+//
+//                   a = undefined ;
+//                   fn = function fn(){
+//                                return falss;
+//                             };
+//                    a = 1
+//
+//    alert(a)    //undefined
+//    alert(fn)      // false               如果是fn（）  就是函数调用， 单单是fn的话，就是整个函数
+//
+//    var a = 1;
+//    function fn(){
+//        return falss;
+//    };
+
+//    预解析2
+
+//    预解析 ：
+//            全局解析：
+//                 a = undefined
+//                 fn = function（）{}     // return true     后面的函数 把前面的覆盖了 ，后面的返回值为true
+//
+//
+//    代码执行：
+//             全局作用域
+//                   a = undefined
+//
+//    var a;
+//    function fn(){
+//        return false;
+//    };
+//
+//    alert(a);   //undefined
+//    alert(fn);  //   function fn(){
+////                            return false;
+////                                 };
+//    a = 1;
+//    function fn(){
+//        return true;
+//    };
+
+//    预解析3
+
+//    预解析
+//         全局解析
+//                a = undefined;(变量被函数覆盖了，所以没有了)
+//                a = function (){};
+//         代码执行
+//               a = undefined
+//               a = 1
+//    alert(a);   //function
+//    var a = 1;        //  由上到下执行，这个赋值 把上面的函数覆盖了
+//    alert(a)    //a= 1
+//    function a(){
+//        return false;
+//    }
+
+//    预解析
+//            全局作用域
+//                   num = undefined     →    num = 20
+//                   fn = function (){}
+//               函数作用域：
+//                      num = undefined;   →   num = 30
+//            全局代码执行:
+//
+//
+//    var num = 20;
+//    function fn(num){
+//        num = 30;
+//        console.log(num);     // 30
+//    }
+//    fn(num);
+//    console.log(num);        // 20
+</script>
+</body>
+</html>

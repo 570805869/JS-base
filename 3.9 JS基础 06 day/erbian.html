@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+//    alert(a)  //undefined
+//    alert(fn)  // function fn(){
+////                  return falss;
+////                };
+//
+//    var a = 1;
+//    function fn(){
+//        return falss;
+//    };
+
+//        var a;
+//        function fn(){
+//            return false;
+//        };
+//
+//        alert(a);   // undefined
+//        alert(fn);   //  function fn(){
+////                          return false;
+////                    };
+//        a = 1;
+//        function fn(){
+//            return false;
+//        };
+
+//            alert(a);       //   function a(){
+////                                  return false;
+////                                 }
+//            var a = 1;
+//            alert(a)                //1
+//            function a(){
+//                return false;
+//            }
+
+    // 有一个黄色的小狗，叫大黄，今年已经三岁了，250斤的重量走路很慢，喜欢吃大骨头
+
+//    var dog = {
+//        name : '大黄',
+//        color : 'yellow',
+//        age : 3,
+//        weight : 250,
+//        eat : function () {
+//            return '喜欢吃大骨头'
+//        }
+//    }
+//    console.log(dog);
+//    console.log(dog.eat());re
+
+//    var dog = new Object()
+//    dog.name = '大黄';
+//    dog.color = 'yellow';
+//    dog.age = 3;
+//    dog.weight = 250;
+//    dog.eat = function(){
+//        return '喜欢吃大骨头'
+//    }
+//
+//    console.log(dog);
+//    console.log(dog.eat());
+
+//    function createDog(name,color,age,weight){
+//        var dog = new Object()
+//
+//        dog.name =name;
+//        dog.color = color;
+//        dog.age = age;
+//        dog.weight = weight;
+//        dog.eat = function(){
+//            return '喜欢吃大骨头'
+//        }
+//        return dog;
+//    }
+//
+//    var d1 = createDog('大黄','yellow',3,250);
+//    console.log(d1);
+//    console.log(d1.eat());
+
+//    function createDog(name,color,age,weight){
+//        this.name = name;
+//        this.color = color;
+//        this.age = age;
+//        this.weight = weight;
+//        this.eat = function(){
+//            return '喜欢吃骨头'
+//        }
+//
+//    }
+//        var dog = new createDog('大黄','color',3,250)
+//       console.log(dog);
+//       console.log(dog.eat())
+
+// 有一个黄色的小狗，叫大黄，今年已经三岁了，250斤的重量走路很慢，喜欢吃大骨头
+
+    function createDog (color, name, age, weight) {
+        this.color = color;
+        this.name = name;
+        this.age = age;
+        this.weight = weight;
+        this.eat = function(){
+            console.log('喜欢吃骨头')
+        }
+    }
+    var dog = new createDog('黄色', '大黄', 3, 150);
+    console.log(dog);
+    dog.eat();
+
+
+
+</script>
+</body>
+</html>

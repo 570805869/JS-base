@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1c2d7b7d-0bcd-44f6-8fd1-cc17a40327df" name="默认的" comment="" />
+    <ignored path="3.8.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="3.8" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="递减.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/递减.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.16544656">
+              <caret line="424" column="36" selection-start-line="424" selection-start-column="36" selection-end-line="424" selection-end-column="36" />
+              <folding>
+                <element signature="e#141#362#0" expanded="false" />
+                <element signature="e#379#415#0" expanded="false" />
+                <element signature="e#564#600#0" expanded="false" />
+                <element signature="e#852#870#0" expanded="false" />
+                <element signature="e#1045#1063#0" expanded="false" />
+                <element signature="e#1232#1250#0" expanded="false" />
+                <element signature="e#1415#1453#0" expanded="false" />
+                <element signature="e#1628#1668#0" expanded="false" />
+                <element signature="e#2095#2128#0" expanded="false" />
+                <element signature="e#2616#2648#0" expanded="false" />
+                <element signature="e#2901#2964#0" expanded="false" />
+                <element signature="e#3154#3192#0" expanded="false" />
+                <element signature="e#3425#3468#0" expanded="false" />
+                <element signature="e#4050#4076#0" expanded="false" />
+                <element signature="e#4235#4329#0" expanded="false" />
+                <element signature="e#4356#4521#0" expanded="false" />
+                <element signature="e#4545#4639#0" expanded="false" />
+                <element signature="e#4663#4807#0" expanded="false" />
+                <element signature="e#4831#5112#0" expanded="false" />
+                <element signature="e#5150#5191#0" expanded="false" />
+                <element signature="e#5996#6116#0" expanded="false" />
+                <element signature="e#6138#6472#0" expanded="false" />
+                <element signature="e#6536#6564#0" expanded="false" />
+                <element signature="e#6874#6894#0" expanded="false" />
+                <element signature="e#7166#7194#0" expanded="false" />
+                <element signature="e#7278#7305#0" expanded="false" />
+                <element signature="e#7420#7447#0" expanded="false" />
+                <element signature="e#7519#7540#0" expanded="false" />
+                <element signature="e#7661#7681#0" expanded="false" />
+                <element signature="e#7814#7839#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lianxi.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lianxi.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-19.642857">
+              <caret line="445" column="0" selection-start-line="445" selection-start-column="0" selection-end-line="445" selection-end-column="0" />
+              <folding>
+                <element signature="e#131#149#0" expanded="false" />
+                <element signature="e#318#336#0" expanded="false" />
+                <element signature="e#505#538#0" expanded="false" />
+                <element signature="e#688#724#0" expanded="false" />
+                <element signature="e#890#926#0" expanded="false" />
+                <element signature="e#1193#1229#0" expanded="false" />
+                <element signature="e#1656#1690#0" expanded="false" />
+                <element signature="e#1938#1972#0" expanded="false" />
+                <element signature="e#2232#2267#0" expanded="false" />
+                <element signature="e#2544#2614#0" expanded="false" />
+                <element signature="e#2835#2905#0" expanded="false" />
+                <element signature="e#3128#3198#0" expanded="false" />
+                <element signature="e#3416#3456#0" expanded="false" />
+                <element signature="e#3690#3728#0" expanded="false" />
+                <element signature="e#3942#3982#0" expanded="false" />
+                <element signature="e#4229#4281#0" expanded="false" />
+                <element signature="e#4768#4848#0" expanded="false" />
+                <element signature="e#5329#5393#0" expanded="false" />
+                <element signature="e#5883#5925#0" expanded="false" />
+                <element signature="e#6520#6563#0" expanded="false" />
+                <element signature="e#7243#7285#0" expanded="false" />
+                <element signature="e#7878#7940#0" expanded="false" />
+                <element signature="e#8256#8317#0" expanded="false" />
+                <element signature="e#8652#8673#0" expanded="false" />
+                <element signature="e#8932#8952#0" expanded="false" />
+                <element signature="e#9199#9217#0" expanded="false" />
+                <element signature="e#9361#9391#0" expanded="false" />
+                <element signature="e#9477#9495#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Html5" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/lianxi.html" />
+        <option value="$PROJECT_DIR$/递减.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1456" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="添加" />
+    <OptionsSetting value="true" id="移除" />
+    <OptionsSetting value="true" id="签出" />
+    <OptionsSetting value="true" id="更新" />
+    <OptionsSetting value="true" id="状态" />
+    <OptionsSetting value="true" id="编辑" />
+    <ConfirmationsSetting value="0" id="添加" />
+    <ConfirmationsSetting value="0" id="移除" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3.8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3.8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3.8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../3.9" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="SearchEverywhereHistoryKey" value=" &#9;FILE&#9;file://C:/D盘。。/传智播客/练习/3.8/递减.html" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JsTestDriver-test-runner" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1c2d7b7d-0bcd-44f6-8fd1-cc17a40327df" name="默认的" comment="" />
+      <created>1520469966151</created>
+      <option name="number" value="Default" />
+      <updated>1520469966151</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/递减.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="157" column="16" selection-start-line="157" selection-start-column="16" selection-end-line="157" selection-end-column="16" />
+          <folding>
+            <element signature="e#141#362#0" expanded="false" />
+            <element signature="e#379#415#0" expanded="false" />
+            <element signature="e#564#600#0" expanded="false" />
+            <element signature="e#852#870#0" expanded="false" />
+            <element signature="e#1045#1063#0" expanded="false" />
+            <element signature="e#1232#1250#0" expanded="false" />
+            <element signature="e#1415#1453#0" expanded="false" />
+            <element signature="e#1628#1668#0" expanded="false" />
+            <element signature="e#2095#2128#0" expanded="false" />
+            <element signature="e#2616#2648#0" expanded="false" />
+            <element signature="e#2901#2964#0" expanded="false" />
+            <element signature="e#3154#3192#0" expanded="false" />
+            <element signature="e#3425#3468#0" expanded="false" />
+            <element signature="e#4050#4076#0" expanded="false" />
+            <element signature="e#4235#4329#0" expanded="false" />
+            <element signature="e#4356#4521#0" expanded="false" />
+            <element signature="e#4545#4639#0" expanded="false" />
+            <element signature="e#4663#4807#0" expanded="false" />
+            <element signature="e#4831#5112#0" expanded="false" />
+            <element signature="e#5150#5191#0" expanded="false" />
+            <element signature="e#5996#6116#0" expanded="false" />
+            <element signature="e#6138#6472#0" expanded="false" />
+            <element signature="e#6536#6564#0" expanded="false" />
+            <element signature="e#6874#6894#0" expanded="false" />
+            <element signature="e#7166#7194#0" expanded="false" />
+            <element signature="e#7278#7305#0" expanded="false" />
+            <element signature="e#7420#7447#0" expanded="false" />
+            <element signature="e#7519#7540#0" expanded="false" />
+            <element signature="e#7661#7681#0" expanded="false" />
+            <element signature="e#7814#7839#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lianxi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#131#149#0" expanded="false" />
+            <element signature="e#318#336#0" expanded="false" />
+            <element signature="e#505#538#0" expanded="false" />
+            <element signature="e#688#724#0" expanded="false" />
+            <element signature="e#890#926#0" expanded="false" />
+            <element signature="e#1193#1229#0" expanded="false" />
+            <element signature="e#1656#1690#0" expanded="false" />
+            <element signature="e#1938#1972#0" expanded="false" />
+            <element signature="e#2232#2267#0" expanded="false" />
+            <element signature="e#2544#2614#0" expanded="false" />
+            <element signature="e#2835#2905#0" expanded="false" />
+            <element signature="e#3128#3198#0" expanded="false" />
+            <element signature="e#3416#3456#0" expanded="false" />
+            <element signature="e#3690#3728#0" expanded="false" />
+            <element signature="e#3942#3982#0" expanded="false" />
+            <element signature="e#4229#4281#0" expanded="false" />
+            <element signature="e#4768#4848#0" expanded="false" />
+            <element signature="e#5329#5393#0" expanded="false" />
+            <element signature="e#5883#5925#0" expanded="false" />
+            <element signature="e#6520#6563#0" expanded="false" />
+            <element signature="e#7243#7285#0" expanded="false" />
+            <element signature="e#7878#7940#0" expanded="false" />
+            <element signature="e#8256#8317#0" expanded="false" />
+            <element signature="e#8652#8673#0" expanded="false" />
+            <element signature="e#8932#8952#0" expanded="false" />
+            <element signature="e#9199#9217#0" expanded="false" />
+            <element signature="e#9361#9391#0" expanded="false" />
+            <element signature="e#9477#9495#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/递减.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="143" column="32" selection-start-line="143" selection-start-column="32" selection-end-line="143" selection-end-column="32" />
+          <folding>
+            <element signature="e#141#362#0" expanded="false" />
+            <element signature="e#379#415#0" expanded="false" />
+            <element signature="e#564#600#0" expanded="false" />
+            <element signature="e#852#870#0" expanded="false" />
+            <element signature="e#1045#1063#0" expanded="false" />
+            <element signature="e#1232#1250#0" expanded="false" />
+            <element signature="e#1415#1453#0" expanded="false" />
+            <element signature="e#1628#1668#0" expanded="false" />
+            <element signature="e#2095#2128#0" expanded="false" />
+            <element signature="e#2616#2648#0" expanded="false" />
+            <element signature="e#2901#2964#0" expanded="false" />
+            <element signature="e#3154#3192#0" expanded="false" />
+            <element signature="e#3425#3468#0" expanded="false" />
+            <element signature="e#4050#4076#0" expanded="false" />
+            <element signature="e#4235#4329#0" expanded="false" />
+            <element signature="e#4356#4521#0" expanded="false" />
+            <element signature="e#4545#4639#0" expanded="false" />
+            <element signature="e#4663#4807#0" expanded="false" />
+            <element signature="e#4831#5112#0" expanded="false" />
+            <element signature="e#5150#5191#0" expanded="false" />
+            <element signature="e#5996#6116#0" expanded="false" />
+            <element signature="e#6138#6472#0" expanded="false" />
+            <element signature="e#6536#6564#0" expanded="false" />
+            <element signature="e#6874#6894#0" expanded="false" />
+            <element signature="e#7166#7194#0" expanded="false" />
+            <element signature="e#7278#7305#0" expanded="false" />
+            <element signature="e#7420#7447#0" expanded="false" />
+            <element signature="e#7519#7540#0" expanded="false" />
+            <element signature="e#7661#7681#0" expanded="false" />
+            <element signature="e#7814#7839#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lianxi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#131#149#0" expanded="false" />
+            <element signature="e#318#336#0" expanded="false" />
+            <element signature="e#505#538#0" expanded="false" />
+            <element signature="e#688#724#0" expanded="false" />
+            <element signature="e#890#926#0" expanded="false" />
+            <element signature="e#1193#1229#0" expanded="false" />
+            <element signature="e#1656#1690#0" expanded="false" />
+            <element signature="e#1938#1972#0" expanded="false" />
+            <element signature="e#2232#2267#0" expanded="false" />
+            <element signature="e#2544#2614#0" expanded="false" />
+            <element signature="e#2835#2905#0" expanded="false" />
+            <element signature="e#3128#3198#0" expanded="false" />
+            <element signature="e#3416#3456#0" expanded="false" />
+            <element signature="e#3690#3728#0" expanded="false" />
+            <element signature="e#3942#3982#0" expanded="false" />
+            <element signature="e#4229#4281#0" expanded="false" />
+            <element signature="e#4768#4848#0" expanded="false" />
+            <element signature="e#5329#5393#0" expanded="false" />
+            <element signature="e#5883#5925#0" expanded="false" />
+            <element signature="e#6520#6563#0" expanded="false" />
+            <element signature="e#7243#7285#0" expanded="false" />
+            <element signature="e#7878#7940#0" expanded="false" />
+            <element signature="e#8256#8317#0" expanded="false" />
+            <element signature="e#8652#8673#0" expanded="false" />
+            <element signature="e#8932#8952#0" expanded="false" />
+            <element signature="e#9199#9217#0" expanded="false" />
+            <element signature="e#9361#9391#0" expanded="false" />
+            <element signature="e#9477#9495#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lianxi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.642857">
+          <caret line="445" column="0" selection-start-line="445" selection-start-column="0" selection-end-line="445" selection-end-column="0" />
+          <folding>
+            <element signature="e#131#149#0" expanded="false" />
+            <element signature="e#318#336#0" expanded="false" />
+            <element signature="e#505#538#0" expanded="false" />
+            <element signature="e#688#724#0" expanded="false" />
+            <element signature="e#890#926#0" expanded="false" />
+            <element signature="e#1193#1229#0" expanded="false" />
+            <element signature="e#1656#1690#0" expanded="false" />
+            <element signature="e#1938#1972#0" expanded="false" />
+            <element signature="e#2232#2267#0" expanded="false" />
+            <element signature="e#2544#2614#0" expanded="false" />
+            <element signature="e#2835#2905#0" expanded="false" />
+            <element signature="e#3128#3198#0" expanded="false" />
+            <element signature="e#3416#3456#0" expanded="false" />
+            <element signature="e#3690#3728#0" expanded="false" />
+            <element signature="e#3942#3982#0" expanded="false" />
+            <element signature="e#4229#4281#0" expanded="false" />
+            <element signature="e#4768#4848#0" expanded="false" />
+            <element signature="e#5329#5393#0" expanded="false" />
+            <element signature="e#5883#5925#0" expanded="false" />
+            <element signature="e#6520#6563#0" expanded="false" />
+            <element signature="e#7243#7285#0" expanded="false" />
+            <element signature="e#7878#7940#0" expanded="false" />
+            <element signature="e#8256#8317#0" expanded="false" />
+            <element signature="e#8652#8673#0" expanded="false" />
+            <element signature="e#8932#8952#0" expanded="false" />
+            <element signature="e#9199#9217#0" expanded="false" />
+            <element signature="e#9361#9391#0" expanded="false" />
+            <element signature="e#9477#9495#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/递减.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16544656">
+          <caret line="424" column="36" selection-start-line="424" selection-start-column="36" selection-end-line="424" selection-end-column="36" />
+          <folding>
+            <element signature="e#141#362#0" expanded="false" />
+            <element signature="e#379#415#0" expanded="false" />
+            <element signature="e#564#600#0" expanded="false" />
+            <element signature="e#852#870#0" expanded="false" />
+            <element signature="e#1045#1063#0" expanded="false" />
+            <element signature="e#1232#1250#0" expanded="false" />
+            <element signature="e#1415#1453#0" expanded="false" />
+            <element signature="e#1628#1668#0" expanded="false" />
+            <element signature="e#2095#2128#0" expanded="false" />
+            <element signature="e#2616#2648#0" expanded="false" />
+            <element signature="e#2901#2964#0" expanded="false" />
+            <element signature="e#3154#3192#0" expanded="false" />
+            <element signature="e#3425#3468#0" expanded="false" />
+            <element signature="e#4050#4076#0" expanded="false" />
+            <element signature="e#4235#4329#0" expanded="false" />
+            <element signature="e#4356#4521#0" expanded="false" />
+            <element signature="e#4545#4639#0" expanded="false" />
+            <element signature="e#4663#4807#0" expanded="false" />
+            <element signature="e#4831#5112#0" expanded="false" />
+            <element signature="e#5150#5191#0" expanded="false" />
+            <element signature="e#5996#6116#0" expanded="false" />
+            <element signature="e#6138#6472#0" expanded="false" />
+            <element signature="e#6536#6564#0" expanded="false" />
+            <element signature="e#6874#6894#0" expanded="false" />
+            <element signature="e#7166#7194#0" expanded="false" />
+            <element signature="e#7278#7305#0" expanded="false" />
+            <element signature="e#7420#7447#0" expanded="false" />
+            <element signature="e#7519#7540#0" expanded="false" />
+            <element signature="e#7661#7681#0" expanded="false" />
+            <element signature="e#7814#7839#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

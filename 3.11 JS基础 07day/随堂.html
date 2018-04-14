@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+//    function Person(name,age,salary) {
+//        this.name = name;
+//        this.age = age;
+//        this.salary = salary;
+//    }
+//    function f1(person) {
+//        person.name = "ls";
+//        person = new Person("aa",18,10);
+//    }
+//
+//    var p = new Person("zs",18,1000);
+//    console.log(p.name);    // zs
+//    f1(p);
+//    console.log(p.name);     //ls
+
+//    var num1 = 10;
+//    var num2 = num1;  //num2 = 10
+//    num1 = 20;         //num1 = 20
+//    console.log(num1);
+//    console.log(num2);
+
+//        var num = 50;
+//        function f1(num) {
+//            num = 60;
+//            console.log(num);
+//        }
+//        f1(num);
+//        console.log(num);
+
+//        var num1 = 55;
+//        var num2 = 66;
+//        function f1(num, num1) {
+//            num = 100;
+//            num1 = 100;
+//            num2 = 100;
+//            console.log(num);
+//            console.log(num1);
+//            console.log(num2);
+//        }
+//
+//        f1(num1, num2);           // 100,100,100
+//        console.log(num1);        // 55
+//        console.log(num2);        // 66
+//        console.log(num);         // is not defined
+
+
+//    var de = new Date(2018, 9, 18, 10, 18 ,0);
+//    console.log(de)
+//    var dt = new Date();
+//    console.dir(dt);   // 输出对象的详细信
+//    console.log(dt.getMinutes());
+//    console.log(dt.getFullYear());
+//    console.log(dt.getHours());
+//    console.log(dt.getTime());   //获取日期毫秒数
+
+    //格式化日期和时间   yyyy--MM-dd  HH:MM:SS
+
+//    function format(dt){      //格式化日期
+//
+//        var year = dt.getFullYear();
+//        var month = toDou(dt.getMonth()+1);
+//        var date = toDou(dt.getDate());
+//        var hours = toDou(dt.getHours());
+//        var minutes = toDou(dt.getMinutes());
+//        var seconds = toDou(dt.getSeconds());
+//        return year + '-' + month + '-' + date + ' ' + hours + '：' + minutes + '：' + seconds
+//    }
+//
+//    function toDou(n){
+//        if( n < 10){
+//            return  '0' + n;    // 03
+//        }else{
+//            return   n;        // 10
+//        }
+//    }
+//
+//    var dt = new Date;
+//    var now = format(dt);
+//    console.log(now)
+//
+//
+//       setInterval(function(){
+//
+//             var dt = new Date();
+//             var now = timeDifference(dt)
+//
+//            document.body.innerHTML = now;
+//          },1000)
+
+//    时间差
+
+//   function timeDifference(future){
+//
+//       var futureTime = future.getTime();
+//
+//       var nowTime = new Date().getTime();
+//
+//       var difference = futureTime - nowTime;
+//
+//       console.log(difference);
+//
+//       var t = difference / 1000;
+//       var day = Math.floor(t/86400);
+//       var hours = Math.floor(t%86400/3600);
+//       var minutes = Math.floor(t%86400%3600/60);
+//       var seconds = Math.floor(t%60);
+//
+////       return {
+////           day: day,
+////           hours: hours,
+////           minutes: minutes,
+////           seconds: seconds
+////       }
+//       return '离你30岁，还有' + day + '天' + ' ' + hours + '小时' + minutes + '分' + seconds + '秒';
+//   }
+//    var future = new Date(2025, 2, 24, 0, 0, 0);
+//
+//    var time = timeDifference(future);
+//
+//    document.write(time)
+//
+//    setInterval(function(){
+//
+//        var difference = new timeDifference();
+//        var result = timeDifference(difference)
+//
+//        document.body.innerHTML = result;
+//    },1000)
+
+//    数组练习
+
+//     push()
+
+//    var ary1 = new Array();
+//    ary1.push('a','b','c');
+//    console.log(ary1);
+
+//    pop()
+
+//    var ary2 = new Array('a','b','s','d','f');
+//    ary2.pop();
+//    console.log(ary2);
+
+//    unshift()
+
+//      var ary3 = new Array('a','b','s','d','f');
+//      ary3.unshift('wjj');
+//      console.log(ary3);
+
+//    shift()
+
+//    var ary4 = new Array('a','s','d','f');
+//    ary4.shift();
+//    console.log(ary4);
+
+//    reverse()
+
+//    var ary5 = new Array(1,2,3,4,5,6,7,8,9,0,'a','s','d','f');
+//    ary5.reverse();
+//    console.log(ary5);
+
+//    sort()
+
+//    var ary7 = new Array(1,324,35,46,5436,73,543,43,2,4,56,6);
+//    ary7.sort(function(x,y){
+//        return x - y; // 升序
+//    });
+//    console.log(ary7);
+
+//    concat();
+
+//    var ary8 = new Array('a');
+//    var ary9 = new Array('s');
+//    var ary10 = new Array('d');
+//    var result = ary8.concat(ary9,ary10);
+//
+//    console.log(result);
+
+//    slice()
+
+//    var ar1 = new Array(1,34,3,45,46,7,65,754,5,2,4,65,7);
+//    var result = ar1.slice(2,5)
+//    console.log(result);
+//    console.log(ar1);
+
+//    splice()
+
+//    var ar2 = new Array(1,2,324,35,4,5657,657,68,756,53,5,4,5);
+//    ar2.splice(1,2,'x','y','ewrewr');    //  (下标，要删除的元素个数，要添加的元素，元素个数)
+//    console.log(ar2);
+
+//    indexof()
+
+//    var ar3 = new Array(33,243,254,365,46,54765,453);
+////    var result = ar3.indexOf(254,0);
+////      var result = ar3.lastIndexOf(254);
+//    console.log(result);
+
+//      join
+
+//    var ar4 = new Array(35,435,46,5476547,4565,43);
+//    var result = ar4.join('|');
+//    console.log(result);
+
+//       forEach()
+
+//    var ary = new Array('a','b','c','d');
+//    for(var i = 0; i < ary.length ; i++){
+//        console.log(ary[i]);
+//    }
+//
+//    ary.forEach(function(value,index){
+//        console.log(value);
+//        console.log(index);
+//    })
+
+//    filter();
+
+//    var ary = new Array(23,4,35,46,5,657,5,654353);
+//    var result = ary.filter(function(value){
+//        return value > 40
+//    });
+//
+//    console.log(ary);
+//    console.log(result);
+
+
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>

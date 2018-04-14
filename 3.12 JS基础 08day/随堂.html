@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+
+//    1.清空数组
+//    var ary = ['s','s','d']
+
+//    2.数组案例
+
+//    1.将一个字符串数组输出为| 分割的形式,比如 刘备|张飞|关羽
+
+//    var ary = ['刘备','张飞','关羽']
+//    var result = ary.join('|')
+//    console.log(ary);
+//
+//        var ary = ['刘备','张飞','关羽']
+//        var result = '';
+//        ary.forEach(function(value,index){
+//            if(index == ary.length - 1){
+//                return += result;
+//            }else{
+//                return += result + '|';
+//            }
+//        })
+
+        var arr = ['刘备', '张飞', '关羽'];
+        var result = arr.join('|');
+        console.log(result);
+
+
+//    2.将一个字符串数组的元素的顺序进行反转。["a", "b", "c", "d"] -> [ "d","c","b","a"]。
+
+//        var ary2 = ["a", "b", "c", "d"];
+//        for (var i = 0; i < ary2.length/2; i++) {
+//            var temp = ary2[i];
+//            ary2[i] = ary2[ary2.length-1-i];
+//            ary2[ary2.length-1-i] = temp;
+//        }
+//        console.log(ary2);
+//        console.log(ary2.reverse());
+
+//    3.工资的数组[1500, 1200, 2000, 2100, 1800] 将工资低于2000的放到一个新数组中
+
+//                var array =  [1500,1200,2000,2100,1800];
+//                var tmpArray = [];
+//                for (var i = 0; i < array.length; i++) {
+//                    if(array[i] < 2000) {
+//                        tmpArray.push(array[i]);
+//                    }
+//                }
+//                console.log(tmpArray);
+//                // 方式2
+//                var array =  [1500, 1200, 2000, 2100, 1800];
+//                array = array.filter(function (item, index) {
+//                    if (item < 2000) {
+//                        return true;
+//                    }
+//                    return false;
+//                });
+//                console.log(array);
+
+//    4.["c", "a", "z", "a", "x", "a"]找到数组中每一个a出现的位置
+
+//        var ary4 = ["c", "a", "z", "a", "x", "a"];
+//        var index = 0;
+//        while (ary4.indexOf("a", index) != -1) {
+//            console.log(ary4.indexOf("a",index));
+//            index = ary4.indexOf("a",index) + 1;
+//        }
+
+//        var ary4 = ["c", "a", "z", "a", "x", "a"];
+//         //如果indexof方法的返回值是 -1 的话，就没有必要继续查找了
+//
+//        var index = 0;
+//
+//         while(ary.indexOf('a',index) != -1){
+//
+//             var index = ary.indexOf('a',index);
+//             console.log(index);
+//             index++;
+//         }
+//        console.log(ary.indexOf('a',2));   //从2的位置开始查找
+
+
+//    数组去重
+//
+//    1.准备一个空数组，用来存储不重复的元素
+//    2.循环要去重的数组
+//    3.如果当前循环元素不在新数组中，那么僵当前元素添加到新数组中
+
+//方法一
+
+//    var ary =      ['a','s','d','f','a','d','g','a']
+
+//    var result = [];
+//    ary.forEach(function (value) {
+//        if (result.indexOf(value) == -1){
+//            result.push(value);
+//        }
+//    });
+//
+//    console.log(result);
+
+//    方法二  (重点掌握)
+
+//    var result = [ ];   //空数组
+//    var temp = {};      //空对象
+//    for(var i = 0;i < ary.length; i++){
+//        var item = ary[i];     // 元素
+//
+////        if (temp[item] = true){
+////
+////        }else{
+////            temp[item] = true;
+////            result.push(item);
+////        }
+//
+//        if(!temp[item] ){
+//            temp[item] = true;
+//            result.push(item);
+//        }
+//    }
+//    console.log(result)
+
+
+//    var result = [ ];
+//    var temp ={};
+//    for (var i = 0; i < ary.length; i++){
+//        var item = ary[i];
+//        if(!temp[item]){    //获取属性，有两个方法，一个是 .   另一个是 [ ]
+//            temp[item] = true;
+//            result.push(item);
+//        }
+//    }
+//    console.log(result)
+
+//    对象变成数组
+
+//    var obj = {a:1,b:2,c:3}
+
+//    实现一个函数  复制字符串
+
+//    function copySty(str,num){
+//
+//    }
+//
+//    copySty('hello',2)
+
+//截取字符串"我爱中华人民共和国"，中的"中华"
+
+//        var s = "我爱中华人民共和国";
+//        s = s.substr(2,2);
+//        console.log(s);
+
+//"abcoefoxyozzopp"查找字符串中所有o出现的位置
+
+//        var s = 'abcoefoxyozzopp';
+//        var array = [];
+//        do {
+//            var index = s.indexOf('o', index + 1);
+//            if (index != -1) {
+//                array.push(index);
+//            }
+//        } while (index > -1);
+//        console.log(array);
+
+//把字符串中所有的o替换成!
+
+//        var s = 'abcoefoxyozzopp';
+//        while (s.indexOf("o") != -1) {
+//            s = s.replace("o","!");
+//        }
+//        console.log(s);
+
+//    var s = 'abcoefoxyozzop';
+//    while (s.indexOf('o') != -1){
+//        s = s.replace('o','!')
+//    }
+//
+//    console.log(s)
+
+//判断一个字符串中出现次数最多的字符，统计这个次数
+
+//    1. 得到字符串中每一个字符出现的位置
+//    2. 找到次数中的最大值
+
+//       var s = 'abcoefoxyozzopp';
+//       var str = {};
+//
+//    for (var i = 0; i < s.length; i++) {
+//        var item = s[i];
+//        if(str[item]){
+//            str[item] += 1;
+//        }else{
+//            str[item] = 1;
+//        }
+//    }
+
+//       var s = 'abcoefoxyozzopp';
+//        var o = {};
+//
+//        for (var i = 0; i < s.length; i++) {
+//            var item = s.charAt(i);
+//            if (o[item]) {
+//                o[item] = o[item] + 1;
+//            }else{
+//                o[item] = 1;
+//            }
+//        }
+//    console.log(item)
+
+//将字符串中问号后面的内容转换为对象格式
+//var site = "http://www.baidu.com?name=zhangsan&age=20&sex=男"; // {name:"张三",age:20,sex:"男"}
+//
+//     var site = "http://www.baidu.com?name=zhangsan&age=20&sex=男";
+//     var index = site.indexOf('?');
+//     var str = site.slice(index+1);
+//     console.log(str);
+//     var stt = str.split('&')
+//    console.log(stt);
+//    var obj = {};   //准备了一个结果对象
+//    for(var i = 0; i < stt.length; i++){
+//        var item = stt[i];
+//        var atr1 = item.split('=')
+//        obj[atr1[0]] = atr1[1];
+//    }
+//
+//     console.log(obj);
+
+//        var s = 'abcoefoxyozzopp';
+//
+//        var result = {};
+//
+//        for (var i = 0; i < s.length; i++) {
+//
+//             console.log(s[i])
+
+//            var item = s.charAt(i);
+//
+//            if (result[item]) {
+//                // 有这个属性
+//                result[item] = result[item] + 1;
+//
+//            }else{
+//                // 没有这个属性
+//                result[item] = 1;
+//
+//            }
+
+//        }
+
+//        console.log(result);
+
+//        var max = 0;
+//        var char = "";
+//
+//        for (attr in result) {
+//
+//            if (max < result[attr]) {
+//
+//                max = result[attr];
+//
+//                char = attr;
+//
+//            }
+//
+//        }
+//
+//        console.log(max);
+//        console.log(char);
+
+
+
+
+</script>
+</body>
+</html>
